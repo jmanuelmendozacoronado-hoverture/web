@@ -3,7 +3,7 @@
 {
     "name": "Widget Char size",
     "summary": "Add size option to Char widget",
-    "version": "18.0.1.0.0",
+    "version": "19.0.1.0.0",
     "category": "Hidden",
     "website": "https://github.com/OCA/web",
     "author": "Agile Business Group, Odoo Community Association (OCA)",
@@ -12,6 +12,9 @@
         "web",
     ],
     "assets": {
-        "web.assets_backend": ["web_widget_char_size/static/src/js/char_widget.esm.js"]
+        "web.assets_backend": [
+            "web_widget_char_size/static/src/xml/char_widget.xml",
+            "web_widget_char_size/static/src/js/char_widget.esm.js",
+        ]
     },
 }
